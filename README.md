@@ -1,10 +1,9 @@
 # GitHub Star 仓库聚类报告：Agent 开发相关
 
-> 账号：littlejcai · Star 总数：276 · Agent 开发相关：150 · 更新时间：2026-09-10
+> 账号：littlejcai · Star 总数：274 · Agent 开发相关：149 · 更新时间：2026-09-10
 >
 > 条目格式：`owner/repo` ⭐ star 数 · 主要语言 — 说明
 >
-> 本次变化：移除 5 个已 unstar 的自研仓库（OpenMAIC、dsh-remote-bridge、dsh-remote-console、skills-hub、pay-skills）；新增 `caicaistudio/Fluxruntime`
 
 ## 聚类总览
 
@@ -18,7 +17,7 @@
 | MCP 生态 | 5 |
 | 终端设备 Agent（Computer/Phone Use） | 6 |
 | Skills / 插件生态 | 63 |
-| Agent 工作台 / 人机协作 | 4 |
+| Agent 工作台 / 人机协作 | 3 |
 | 安全与评测 | 1 |
 | awesome / 学习资源 | 6 |
 
@@ -197,7 +196,6 @@
 - `tabtin-ai/TabTin` ⭐ 343 · TypeScript — 人与多 agent 协同桌面 workspace
 - `cloudflare/cloudflare-os` ⭐ 9.8k · TypeScript — Workers 上的 Agent workspace
 - `Devin-AXIS/iPolloWork` ⭐ 5.7k · TypeScript — 多引擎统一的企业级本地 Agent Workbench
-- `caicaistudio/Fluxruntime` ⭐ 1 · TypeScript — 项目协作 AI 运行平台
 
 ## 10. 安全与评测
 
