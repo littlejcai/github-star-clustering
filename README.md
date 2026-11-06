@@ -1,37 +1,36 @@
 # GitHub Star 全量聚类报告
 
-> 账号：littlejcai · Star 总数：396 · 更新时间：2026-11-06
+> 账号：littlejcai · Star 总数：381 · 更新时间：2026-11-06
 >
 > 条目格式：`owner/repo` ⭐ star 数 · 主要语言 — 说明
 >
-> 本次变化：较 2026-09-10 版新增 128、移除 5（HKUDS/OpenOPC、HKUDS/OpenSpace、caicaistudio/enterprise-core、caicaistudio/learning-space、luoluoluo22/jianying-editor-skill），全部条目 star 数已刷新
+> 本次变化：较 2026-09-10 版新增 128、移除 5（HKUDS/OpenOPC、HKUDS/OpenSpace、caicaistudio/enterprise-core、caicaistudio/learning-space、luoluoluo22/jianying-editor-skill），全部条目 star 数已刷新；同日质量清理：移除低质/停更收藏 15 个（goteams、Openclaw-With-Apple、PhoneHarness、Deepseek-Cowork、baidu-netdisk/mcp、deepseek-claude-code-worker-mcp、karpathy-claude-wiki、adp-biz-portal、TypeAgent、wxpusher-client、pySolidWorks、ipa-mac-builder、MAIC-Core、flowable-examples、moticlaw）
 
 ## 聚类总览
 
 | 类别 | 数量 |
 |---|---|
-| Agent 开发（专题，含 11 个子类） | 215 |
+| Agent 开发（专题，含 11 个子类） | 206 |
 | AI 工具与效率 | 29 |
 | 前端与设计 | 19 |
-| 开发工具与效率 | 14 |
-| 教育与学习 | 29 |
+| 开发工具与效率 | 11 |
+| 教育与学习 | 27 |
 | 内容创作与自媒体 | 18 |
 | LLM 模型与推理 | 18 |
 | 系统与基础设施 | 12 |
 | 数据与存储 | 13 |
 | 生活与其他 | 23 |
-| 产品与建站 | 4 |
+| 产品与建站 | 3 |
 | 游戏与娱乐 | 2 |
 
 ---
 
-## 一、Agent 开发（215）
+## 一、Agent 开发（206）
 
 ### 1.1 Agent 框架 / Harness
 
 - `langchain-ai/langgraph` ⭐ 44.5k · Python — 构建有韧性 Agent 的主流框架
 - `agentscope-ai/agentscope` ⭐ 35.5k · Python — 可见、可理解、可信任的 multi-agent 框架（ReAct + MCP）
-- `microsoft/TypeAgent` ⭐ 753 · TypeScript — 个人 Agent 架构探索（微软官方示例）
 - `MervinPraison/PraisonAI` ⭐ 9.3k · Python — 轻量 Agent SDK，内置记忆与 RAG
 - `deepseek-ai/deepseek-harness` ⭐ 274k · TypeScript — "Everything is a Plugin" 的插件化 harness
 - `earendil-works/pi` ⭐ 120.3k · TypeScript — 统一 LLM API + agent loop + TUI 的工具包
@@ -62,7 +61,6 @@
 - `agentscope-ai/AgentTeams` ⭐ 5.9k · Go — Multi-Agent OS，Matrix rooms 人在回路协调
 - `THU-MAIC/OpenMAIC` ⭐ 42.8k · TypeScript — 多智能体互动课堂
 - `yetone/cumora` ⭐ 4.1k · TypeScript — AI Agent 作为队员的团队聊天
-- `yangbod/goteams` ⭐ 6 — 内置 Agent 员工的研发项目管理
 - `tutti-os/tutti` ⭐ 3.9k · TypeScript — 本地优先的 multi-agent 桌面工作台
 - `HKUDS/DeepTutor` ⭐ 55.5k · Python — 多智能体 + RAG 的个性化 AI 导师
 - `paperclipai/paperclip` ⭐ 111.5k · TypeScript — 管理工作中 agents 的开源应用
@@ -105,7 +103,6 @@
 - `Egonex-AI/Understand-Anything` ⭐ 91k · TypeScript — 代码转知识图谱，适配各编码 agent
 - `firecrawl/firecrawl` ⭐ 199k · TypeScript — 面向 Agent 的网页抓取上下文 API
 - `microsoft/markitdown` ⭐ 194.1k · Python — 文件转 Markdown 的上下文预处理
-- `Benboerba620/karpathy-claude-wiki` ⭐ 69 · Python — 无向量库的 markdown 个人 wiki
 - `tobi/qmd` ⭐ 30.9k · TypeScript — 本地个人文档 mini 搜索引擎
 - `yyjeqhc/webcodex` ⭐ 2.5k · Rust — 云端 Agent 获得本地真实开发环境
 - `zhu1090093659/deepseek-pp` ⭐ 1.8k · TypeScript — DeepSeek 网页版扩展（MCP + 记忆 + Skills）
@@ -124,7 +121,6 @@
 - `bytedance/flowgram.ai` ⭐ 8.6k · TypeScript — 可视化工作流开发框架
 - `heygen-com/hyperframes` ⭐ 79.6k · TypeScript — 专为 agent 构建的 HTML 渲染视频框架
 - `Ebony-Vinyl/dsh-our-free-model` ⭐ 62.6k · TypeScript — DSH 插件：免登录免 Key 直用前沿模型
-- `agentiker/adp-biz-portal` ⭐ 34 · TypeScript — 企业 AI 业务接入平台（统一身份/权限/MCP 接入）
 
 ### 1.6 MCP 生态
 
@@ -132,17 +128,12 @@
 - `alchaincyf/huashu-chrome` ⭐ 571 · JavaScript — MCP + Chrome 扩展，带登录态操控浏览器
 - `tirth8205/code-review-graph` ⭐ 32.6k · Python — 本地代码智能图（MCP + CLI）
 - `Graphify-Labs/graphify` ⭐ 143k · Python — 代码库转可查询知识图谱
-- `louchi1984-coder/deepseek-claude-code-worker-mcp` ⭐ 97 · JavaScript — Codex Desktop 的 DeepSeek worker MCP
-- `baidu-netdisk/mcp` ⭐ 161 · Python — 百度网盘 MCP server
 
 ### 1.7 终端设备 Agent（Computer/Phone Use）
 
 - `bytedance/UI-TARS-desktop` ⭐ 39.6k · TypeScript — 开源多模态 computer-use 技术栈
 - `TurixAI/TuriX-CUA` ⭐ 3.2k · Python — GUI 操作 Agent
-- `PhoneHarness/PhoneHarness` ⭐ 98 · Python — 混合动作手机 Agent 运行时
 - `openclaw/openclaw` ⭐ 394k · TypeScript — "真正能做事"的跨平台个人 AI
-- `imjszhang/Deepseek-Cowork` ⭐ 225 · JavaScript — DeepSeek 驱动的浏览器自动化
-- `rtjowo/Openclaw-With-Apple` ⭐ 77 · Python — 无描述
 - `Tencent/BrowserSkill` ⭐ 10.1k · Python — 让 Agent 复用你已登录的真实浏览器
 - `vercel-labs/agent-desktop` ⭐ 17.1k · TypeScript — 面向 AI Agent 的 computer use CLI
 - `phone-harness/phone-harness` ⭐ 4.6k · Python — 让 Agent 控制你的手机
@@ -336,24 +327,21 @@
 - `pure-admin/vue-pure-admin` ⭐ 20.7k · Vue — ESM+Vue3+Vite+Element-Plus 后台管理系统
 - `pure-admin/pure-admin-thin` ⭐ 3.1k · Vue — vue-pure-admin 官方精简版
 
-## 四、开发工具与效率（14）
+## 四、开发工具与效率（11）
 
 - `tw93/Pake` ⭐ 62.8k · Rust — 一条命令把网页打包成桌面应用（Rust/Tauri）
 - `marp-team/marp` ⭐ 12.7k · TypeScript — Markdown 演示文稿生态入口
 - `wekan/wekan` ⭐ 21.2k · JavaScript — 开源看板协作工具（Meteor）
 - `agegr/pi-web` ⭐ 8.1k · TypeScript — pi coding agent 的 Web UI
 - `Marve10s/Better-Fullstack` ⭐ 818 · TypeScript — 多语言全栈应用脚手架（可视化构建器 + CLI）
-- `wxpusher/wxpusher-client` ⭐ 899 — API 实时推送消息到个人微信
 - `tpaviot/pythonocc-core` ⭐ 2k · SWIG — Python 3D 几何 CAD/BIM/CAM 库
-- `mklanac/pySolidWorks` ⭐ 78 · Python — Python 操作 SolidWorks 例程集合
 - `dromara/RuoYi-Vue-Plus` ⭐ 2.9k · Java — 多租户后台管理系统，重写 RuoYi-Vue
 - `YunaiV/ruoyi-vue-pro` ⭐ 40.3k · Java — RuoYi-Vue Pro 后台框架（工作流/商城/CRM）
 - `n8n-io/n8n` ⭐ 209.6k · TypeScript — Fair-code 工作流自动化平台，400+ 集成
-- `yujon/ipa-mac-builder` ⭐ 36 · Swift — ipa 的 iOS 证书重签名与安装/导出
 - `docmirror/dev-sidecar` ⭐ 25k · JavaScript — 开发者边车：GitHub/git clone/release 下载加速
 - `makeplane/plane` ⭐ 62k · TypeScript — 开源 Jira/Linear 替代：现代项目管理平台
 
-## 五、教育与学习（29）
+## 五、教育与学习（27）
 
 - `Heartune/DataFlow-EDU` ⭐ 291 · Python — AI 赋能教师出题，学科语料库与 Benchmark 生成
 - `hehonghui/awesome-english-ebooks` ⭐ 39.1k · CSS — 经济学人/纽约客等英语杂志每周更新下载
@@ -361,8 +349,6 @@
 - `tangshimin/MuJing` ⭐ 4.8k · Kotlin — 通过电影美剧真实语境记单词的桌面应用
 - `haojing8312/cn-k12-math-knowledge-graph` ⭐ 62 · HTML — K12 数学先修知识图谱与 3D 探索器
 - `jbiaojerry/ebook-treasure-chest` ⭐ 23.8k · Python — 各类电子书下载链接合集
-- `flowable/flowable-examples` ⭐ 280 · Java — Flowable 示例项目合集
-- `THU-MAIC/MAIC-Core` ⭐ 43 · Python — 清华 MAIC（AI 赋能课程）核心算法实现
 - `andyhuo520/aetherviz-master` ⭐ 1.7k — 互动教育可视化，教学主题转 3D 交互网页
 - `happycola233/tchMaterial-parser` ⭐ 7.7k · Python — 国家中小学智慧教育平台电子课本下载
 - `easychen/opc-methodology` ⭐ 17k · PHP — 《一人企业方法论》第二版
@@ -484,9 +470,8 @@
 - `workbzw/pixoffice` ⭐ 83 — 无描述（名似办公套件）
 - `23Star/xianyu-super-butler` ⭐ 1.4k · JavaScript — 闲鱼自动发货托管平台（AI 过滑块）
 
-## 十一、产品与建站（4）
+## 十一、产品与建站（3）
 
-- `mileson/moticlaw` ⭐ 9 · TypeScript — MotiClaw（本地优先 AI 员工平台）官网
 - `appsmithorg/appsmith` ⭐ 41.2k · TypeScript — 低代码平台，搭建管理面板与内部工具
 - `nocobase/nocobase` ⭐ 24.8k · TypeScript — AI + 无代码平台，快速搭建业务系统
 - `lenve/vhr` ⭐ 28k · Java — SpringBoot+Vue 人力资源管理系统
